@@ -1,18 +1,18 @@
 //
-//  MPSPreferencesViewController.m
-//  Multi Partner Signup
+//  MPSJoinPage2ViewController.m
+//  MultiPartnerSignupGIT
 //
-//  Created by James Crosthwaite on 18/07/2013.
+//  Created by James Crosthwaite on 23/07/2013.
 //  Copyright (c) 2013 James Crosthwaite. All rights reserved.
 //
 
-#import "MPSPreferencesViewController.h"
+#import "MPSJoinPage2ViewController.h"
 
-@interface MPSPreferencesViewController ()
+@interface MPSJoinPage2ViewController ()
 
 @end
 
-@implementation MPSPreferencesViewController
+@implementation MPSJoinPage2ViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -33,10 +33,6 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (IBAction)doneButton:(id)sender {
-    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 - (IBAction)backToJourneySelection:(id)sender {

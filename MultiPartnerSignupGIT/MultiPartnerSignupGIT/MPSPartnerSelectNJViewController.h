@@ -18,5 +18,6 @@
 - (IBAction)avisClicked:(id)sender;
 - (IBAction)proteaClicked:(id)sender;
 - (IBAction)lewgeffenClicked:(id)sender;
+- (IBAction)backToJourneySelection:(id)sender;
 
 @end

@@ -525,10 +525,10 @@
             </objects>
             <point key="canvasLocation" x="2651" y="-937"/>
         </scene>
-        <!--View Controller - Join Page 2-->
+        <!--Join Page2 View Controller - Join Page 2-->
         <scene sceneID="Q8C-Pu-pIy">
             <objects>
-                <viewController id="56q-bQ-2tq" sceneMemberID="viewController">
+                <viewController id="56q-bQ-2tq" customClass="MPSJoinPage2ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Nhx-5c-c0f">
                         <rect key="frame" x="0.0" y="64" width="1024" height="704"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -744,6 +744,11 @@
                     </view>
                     <navigationItem key="navigationItem" title="Join Page 2" id="qHh-Ao-x3A">
                         <barButtonItem key="backBarButtonItem" title="Back" id="5hY-ST-akZ"/>
+                        <barButtonItem key="rightBarButtonItem" title="Back to Journey Selection" id="LLJ-iH-8C1">
+                            <connections>
+                                <action selector="backToJourneySelection:" destination="56q-bQ-2tq" id="HIZ-OX-m4L"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                 </viewController>
@@ -938,6 +943,11 @@
                     </view>
                     <navigationItem key="navigationItem" title="Partner Selection" id="nef-WV-und">
                         <barButtonItem key="backBarButtonItem" title="Back" id="JqZ-81-HZU"/>
+                        <barButtonItem key="rightBarButtonItem" title="Back to Journey Selection" id="9ii-on-LYQ">
+                            <connections>
+                                <action selector="backToJourneySelection:" destination="beY-DE-hMW" id="PHB-o6-lbM"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                 </viewController>
@@ -983,6 +993,11 @@
                     </view>
                     <navigationItem key="navigationItem" title="Preferences" id="z5P-IA-8aa">
                         <barButtonItem key="backBarButtonItem" title="Back" id="W4c-Oa-mLp"/>
+                        <barButtonItem key="rightBarButtonItem" title="Back to Journey Selection" id="vW6-EE-1vG">
+                            <connections>
+                                <action selector="backToJourneySelection:" destination="M7R-Fo-i9N" id="1ea-z3-MKH"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                 </viewController>
@@ -1216,6 +1231,11 @@
                     </view>
                     <navigationItem key="navigationItem" title="Partner Selection" id="Pxt-3P-dYg">
                         <barButtonItem key="backBarButtonItem" title="Back" id="ewL-ZI-Pd5"/>
+                        <barButtonItem key="rightBarButtonItem" title="Back to Journey Selection" id="eQv-V0-S3O">
+                            <connections>
+                                <action selector="backToJourneySelection:" destination="2fi-gg-fbY" id="SHY-dQ-a1N"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                 </viewController>
@@ -1256,40 +1276,6 @@
         <image name="preferences-background.jpg" width="1024" height="704"/>
         <image name="protea.jpg" width="242" height="225"/>
     </resources>
-    <classes>
-        <class className="MPSPartnerSelectCMViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MPSPartnerSelectCMViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="avisSelected:"/>
-                <relationship kind="action" name="baSelected:"/>
-                <relationship kind="action" name="bpSelected:"/>
-                <relationship kind="action" name="doneButton:"/>
-                <relationship kind="action" name="lewgeffenSelected:"/>
-                <relationship kind="action" name="proteaSelected:"/>
-            </relationships>
-        </class>
-        <class className="MPSPartnerSelectNJViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MPSPartnerSelectNJViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="absaClicked:"/>
-                <relationship kind="action" name="avisClicked:"/>
-                <relationship kind="action" name="baClicked:"/>
-                <relationship kind="action" name="bpClicked:"/>
-                <relationship kind="action" name="lewgeffenClicked:"/>
-                <relationship kind="action" name="picknpayClicked:"/>
-                <relationship kind="action" name="proteaClicked:"/>
-            </relationships>
-        </class>
-        <class className="MPSPreferencesViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MPSPreferencesViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="doneButton:"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>

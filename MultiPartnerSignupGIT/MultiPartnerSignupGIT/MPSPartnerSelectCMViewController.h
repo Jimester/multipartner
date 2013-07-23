@@ -16,5 +16,6 @@
 - (IBAction)proteaSelected:(id)sender;
 - (IBAction)lewgeffenSelected:(id)sender;
 - (IBAction)doneButton:(id)sender;
+- (IBAction)backToJourneySelection:(id)sender;
 
 @end

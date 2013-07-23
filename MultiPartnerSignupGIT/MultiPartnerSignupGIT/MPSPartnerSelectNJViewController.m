@@ -111,4 +111,8 @@
         [buttonClicked setBackgroundImage:[UIImage imageNamed:@"lewgeffen-selected.jpg"] forState:UIControlStateNormal];
     }
 }
+
+- (IBAction)backToJourneySelection:(id)sender {
+    [self.navigationController popToRootViewControllerAnimated:YES];
+}
 @end

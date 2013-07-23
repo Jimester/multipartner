@@ -37,6 +37,7 @@
 		58CDCBC5179E767100EAA4D0 /* MPSPartnerSelectCMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CDCBC0179E767100EAA4D0 /* MPSPartnerSelectCMViewController.m */; };
 		58CDCBC6179E767100EAA4D0 /* MPSPartnerSelectNJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CDCBC2179E767100EAA4D0 /* MPSPartnerSelectNJViewController.m */; };
 		58CDCBC7179E767100EAA4D0 /* MPSPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CDCBC4179E767100EAA4D0 /* MPSPreferencesViewController.m */; };
+		58CDCBCA179E84D800EAA4D0 /* MPSJoinPage2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CDCBC9179E84D800EAA4D0 /* MPSJoinPage2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,8 @@
 		58CDCBC2179E767100EAA4D0 /* MPSPartnerSelectNJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSPartnerSelectNJViewController.m; sourceTree = "<group>"; };
 		58CDCBC3179E767100EAA4D0 /* MPSPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSPreferencesViewController.h; sourceTree = "<group>"; };
 		58CDCBC4179E767100EAA4D0 /* MPSPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSPreferencesViewController.m; sourceTree = "<group>"; };
+		58CDCBC8179E84D800EAA4D0 /* MPSJoinPage2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSJoinPage2ViewController.h; sourceTree = "<group>"; };
+		58CDCBC9179E84D800EAA4D0 /* MPSJoinPage2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSJoinPage2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +175,8 @@
 				58CDCBC2179E767100EAA4D0 /* MPSPartnerSelectNJViewController.m */,
 				58CDCBC3179E767100EAA4D0 /* MPSPreferencesViewController.h */,
 				58CDCBC4179E767100EAA4D0 /* MPSPreferencesViewController.m */,
+				58CDCBC8179E84D800EAA4D0 /* MPSJoinPage2ViewController.h */,
+				58CDCBC9179E84D800EAA4D0 /* MPSJoinPage2ViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				58CDCBC5179E767100EAA4D0 /* MPSPartnerSelectCMViewController.m in Sources */,
 				58CDCBC6179E767100EAA4D0 /* MPSPartnerSelectNJViewController.m in Sources */,
 				58CDCBC7179E767100EAA4D0 /* MPSPreferencesViewController.m in Sources */,
+				58CDCBCA179E84D800EAA4D0 /* MPSJoinPage2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

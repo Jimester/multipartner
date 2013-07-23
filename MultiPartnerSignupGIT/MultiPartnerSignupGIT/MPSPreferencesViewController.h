@@ -12,5 +12,6 @@
 
 
 - (IBAction)doneButton:(id)sender;
+- (IBAction)backToJourneySelection:(id)sender;
 
 @end
