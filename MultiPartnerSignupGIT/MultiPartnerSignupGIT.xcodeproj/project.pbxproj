@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58CDCB7A179E75AA00EAA4D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CDCB79179E75AA00EAA4D0 /* UIKit.framework */; };
+		58CDCB7C179E75AA00EAA4D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CDCB7B179E75AA00EAA4D0 /* Foundation.framework */; };
+		58CDCB7E179E75AA00EAA4D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CDCB7D179E75AA00EAA4D0 /* CoreGraphics.framework */; };
+		58CDCB84179E75AA00EAA4D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58CDCB82179E75AA00EAA4D0 /* InfoPlist.strings */; };
+		58CDCB86179E75AA00EAA4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CDCB85179E75AA00EAA4D0 /* main.m */; };
+		58CDCB8A179E75AA00EAA4D0 /* MPSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CDCB89179E75AA00EAA4D0 /* MPSAppDelegate.m */; };
+		58CDCB8C179E75AA00EAA4D0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 58CDCB8B179E75AA00EAA4D0 /* Default.png */; };
+		58CDCB8E179E75AA00EAA4D0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58CDCB8D179E75AA00EAA4D0 /* Default@2x.png */; };
+		58CDCB90179E75AA00EAA4D0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58CDCB8F179E75AA00EAA4D0 /* Default-568h@2x.png */; };
+		58CDCB93179E75AA00EAA4D0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58CDCB91179E75AA00EAA4D0 /* MainStoryboard.storyboard */; };
+		58CDCBAD179E75C900EAA4D0 /* absa-selected.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58CDCB9C179E75C900EAA4D0 /* absa-selected.jpg */; };
+		58CDCBAE179E75C900EAA4D0 /* absa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58CDCB9D179E75C900EAA4D0 /* absa.jpg */; };
+		58CDCBAF179E75C900EAA4D0 /* avis-selected.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58CDCB9E179E75C900EAA4D0 /* avis-selected.jpg */; };
+		58CDCBB0179E75C900EAA4D0 /* avis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58CDCB9F179E75C900EAA4D0 /* avis.jpg */; };
+		58CDCBB1179E75C900EAA4D0 /* ba-selected.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58CDCBA0179E75C900EAA4D0 /* ba-selected.jpg */; };
+		58CDCBB2179E75C900EAA4D0 /* ba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58CDCBA1179E75C900EAA4D0 /* ba.jpg */; };
+		58CDCBB3179E75C900EAA4D0 /* big-orange-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 58CDCBA2179E75C900EAA4D0 /* big-orange-button.png */; };
+		58CDCBB4179E75C900EAA4D0 /* bp-selected.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58CDCBA3179E75C900EAA4D0 /* bp-selected.jpg */; };
+		58CDCBB5179E75C900EAA4D0 /* bp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58CDCBA4179E75C900EAA4D0 /* bp.jpg */; };
+		58CDCBB6179E75C900EAA4D0 /* lewgeffen-selected.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58CDCBA5179E75C900EAA4D0 /* lewgeffen-selected.jpg */; };
+		58CDCBB7179E75C900EAA4D0 /* lewgeffen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58CDCBA6179E75C900EAA4D0 /* lewgeffen.jpg */; };
+		58CDCBB8179E75C900EAA4D0 /* my-account-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58CDCBA7179E75C900EAA4D0 /* my-account-background.jpg */; };
+		58CDCBB9179E75C900EAA4D0 /* picknpay-selected.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58CDCBA8179E75C900EAA4D0 /* picknpay-selected.jpg */; };
+		58CDCBBA179E75C900EAA4D0 /* picknpay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58CDCBA9179E75C900EAA4D0 /* picknpay.jpg */; };
+		58CDCBBB179E75C900EAA4D0 /* preferences-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58CDCBAA179E75C900EAA4D0 /* preferences-background.jpg */; };
+		58CDCBBC179E75C900EAA4D0 /* protea-selected.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58CDCBAB179E75C900EAA4D0 /* protea-selected.jpg */; };
+		58CDCBBD179E75C900EAA4D0 /* protea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58CDCBAC179E75C900EAA4D0 /* protea.jpg */; };
+		58CDCBC5179E767100EAA4D0 /* MPSPartnerSelectCMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CDCBC0179E767100EAA4D0 /* MPSPartnerSelectCMViewController.m */; };
+		58CDCBC6179E767100EAA4D0 /* MPSPartnerSelectNJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CDCBC2179E767100EAA4D0 /* MPSPartnerSelectNJViewController.m */; };
+		58CDCBC7179E767100EAA4D0 /* MPSPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CDCBC4179E767100EAA4D0 /* MPSPreferencesViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58CDCB76179E75AA00EAA4D0 /* MultiPartnerSignupGIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiPartnerSignupGIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58CDCB79179E75AA00EAA4D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		58CDCB7B179E75AA00EAA4D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		58CDCB7D179E75AA00EAA4D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		58CDCB81179E75AA00EAA4D0 /* MultiPartnerSignupGIT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiPartnerSignupGIT-Info.plist"; sourceTree = "<group>"; };
+		58CDCB83179E75AA00EAA4D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		58CDCB85179E75AA00EAA4D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58CDCB87179E75AA00EAA4D0 /* MultiPartnerSignupGIT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiPartnerSignupGIT-Prefix.pch"; sourceTree = "<group>"; };
+		58CDCB88179E75AA00EAA4D0 /* MPSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPSAppDelegate.h; sourceTree = "<group>"; };
+		58CDCB89179E75AA00EAA4D0 /* MPSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPSAppDelegate.m; sourceTree = "<group>"; };
+		58CDCB8B179E75AA00EAA4D0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		58CDCB8D179E75AA00EAA4D0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		58CDCB8F179E75AA00EAA4D0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		58CDCB92179E75AA00EAA4D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		58CDCB9C179E75C900EAA4D0 /* absa-selected.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "absa-selected.jpg"; sourceTree = "<group>"; };
+		58CDCB9D179E75C900EAA4D0 /* absa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = absa.jpg; sourceTree = "<group>"; };
+		58CDCB9E179E75C900EAA4D0 /* avis-selected.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "avis-selected.jpg"; sourceTree = "<group>"; };
+		58CDCB9F179E75C900EAA4D0 /* avis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avis.jpg; sourceTree = "<group>"; };
+		58CDCBA0179E75C900EAA4D0 /* ba-selected.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ba-selected.jpg"; sourceTree = "<group>"; };
+		58CDCBA1179E75C900EAA4D0 /* ba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ba.jpg; sourceTree = "<group>"; };
+		58CDCBA2179E75C900EAA4D0 /* big-orange-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "big-orange-button.png"; sourceTree = "<group>"; };
+		58CDCBA3179E75C900EAA4D0 /* bp-selected.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bp-selected.jpg"; sourceTree = "<group>"; };
+		58CDCBA4179E75C900EAA4D0 /* bp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bp.jpg; sourceTree = "<group>"; };
+		58CDCBA5179E75C900EAA4D0 /* lewgeffen-selected.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lewgeffen-selected.jpg"; sourceTree = "<group>"; };
+		58CDCBA6179E75C900EAA4D0 /* lewgeffen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lewgeffen.jpg; sourceTree = "<group>"; };
+		58CDCBA7179E75C900EAA4D0 /* my-account-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "my-account-background.jpg"; sourceTree = "<group>"; };
+		58CDCBA8179E75C900EAA4D0 /* picknpay-selected.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "picknpay-selected.jpg"; sourceTree = "<group>"; };
+		58CDCBA9179E75C900EAA4D0 /* picknpay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = picknpay.jpg; sourceTree = "<group>"; };
+		58CDCBAA179E75C900EAA4D0 /* preferences-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "preferences-background.jpg"; sourceTree = "<group>"; };
+		58CDCBAB179E75C900EAA4D0 /* protea-selected.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "protea-selected.jpg"; sourceTree = "<group>"; };
+		58CDCBAC179E75C900EAA4D0 /* protea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = protea.jpg; sourceTree = "<group>"; };
+		58CDCBBF179E767100EAA4D0 /* MPSPartnerSelectCMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSPartnerSelectCMViewController.h; sourceTree = "<group>"; };
+		58CDCBC0179E767100EAA4D0 /* MPSPartnerSelectCMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSPartnerSelectCMViewController.m; sourceTree = "<group>"; };
+		58CDCBC1179E767100EAA4D0 /* MPSPartnerSelectNJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSPartnerSelectNJViewController.h; sourceTree = "<group>"; };
+		58CDCBC2179E767100EAA4D0 /* MPSPartnerSelectNJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSPartnerSelectNJViewController.m; sourceTree = "<group>"; };
+		58CDCBC3179E767100EAA4D0 /* MPSPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSPreferencesViewController.h; sourceTree = "<group>"; };
+		58CDCBC4179E767100EAA4D0 /* MPSPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSPreferencesViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58CDCB73179E75AA00EAA4D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58CDCB7A179E75AA00EAA4D0 /* UIKit.framework in Frameworks */,
+				58CDCB7C179E75AA00EAA4D0 /* Foundation.framework in Frameworks */,
+				58CDCB7E179E75AA00EAA4D0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58CDCB6D179E75AA00EAA4D0 = {
+			isa = PBXGroup;
+			children = (
+				58CDCB7F179E75AA00EAA4D0 /* MultiPartnerSignupGIT */,
+				58CDCB78179E75AA00EAA4D0 /* Frameworks */,
+				58CDCB77179E75AA00EAA4D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58CDCB77179E75AA00EAA4D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58CDCB76179E75AA00EAA4D0 /* MultiPartnerSignupGIT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58CDCB78179E75AA00EAA4D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58CDCB79179E75AA00EAA4D0 /* UIKit.framework */,
+				58CDCB7B179E75AA00EAA4D0 /* Foundation.framework */,
+				58CDCB7D179E75AA00EAA4D0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58CDCB7F179E75AA00EAA4D0 /* MultiPartnerSignupGIT */ = {
+			isa = PBXGroup;
+			children = (
+				58CDCB88179E75AA00EAA4D0 /* MPSAppDelegate.h */,
+				58CDCB89179E75AA00EAA4D0 /* MPSAppDelegate.m */,
+				58CDCB91179E75AA00EAA4D0 /* MainStoryboard.storyboard */,
+				58CDCBBE179E763E00EAA4D0 /* View Controllers */,
+				58CDCB80179E75AA00EAA4D0 /* Supporting Files */,
+			);
+			path = MultiPartnerSignupGIT;
+			sourceTree = "<group>";
+		};
+		58CDCB80179E75AA00EAA4D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58CDCB9C179E75C900EAA4D0 /* absa-selected.jpg */,
+				58CDCB9D179E75C900EAA4D0 /* absa.jpg */,
+				58CDCB9E179E75C900EAA4D0 /* avis-selected.jpg */,
+				58CDCB9F179E75C900EAA4D0 /* avis.jpg */,
+				58CDCBA0179E75C900EAA4D0 /* ba-selected.jpg */,
+				58CDCBA1179E75C900EAA4D0 /* ba.jpg */,
+				58CDCBA2179E75C900EAA4D0 /* big-orange-button.png */,
+				58CDCBA3179E75C900EAA4D0 /* bp-selected.jpg */,
+				58CDCBA4179E75C900EAA4D0 /* bp.jpg */,
+				58CDCBA5179E75C900EAA4D0 /* lewgeffen-selected.jpg */,
+				58CDCBA6179E75C900EAA4D0 /* lewgeffen.jpg */,
+				58CDCBA7179E75C900EAA4D0 /* my-account-background.jpg */,
+				58CDCBA8179E75C900EAA4D0 /* picknpay-selected.jpg */,
+				58CDCBA9179E75C900EAA4D0 /* picknpay.jpg */,
+				58CDCBAA179E75C900EAA4D0 /* preferences-background.jpg */,
+				58CDCBAB179E75C900EAA4D0 /* protea-selected.jpg */,
+				58CDCBAC179E75C900EAA4D0 /* protea.jpg */,
+				58CDCB81179E75AA00EAA4D0 /* MultiPartnerSignupGIT-Info.plist */,
+				58CDCB82179E75AA00EAA4D0 /* InfoPlist.strings */,
+				58CDCB85179E75AA00EAA4D0 /* main.m */,
+				58CDCB87179E75AA00EAA4D0 /* MultiPartnerSignupGIT-Prefix.pch */,
+				58CDCB8B179E75AA00EAA4D0 /* Default.png */,
+				58CDCB8D179E75AA00EAA4D0 /* Default@2x.png */,
+				58CDCB8F179E75AA00EAA4D0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58CDCBBE179E763E00EAA4D0 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				58CDCBBF179E767100EAA4D0 /* MPSPartnerSelectCMViewController.h */,
+				58CDCBC0179E767100EAA4D0 /* MPSPartnerSelectCMViewController.m */,
+				58CDCBC1179E767100EAA4D0 /* MPSPartnerSelectNJViewController.h */,
+				58CDCBC2179E767100EAA4D0 /* MPSPartnerSelectNJViewController.m */,
+				58CDCBC3179E767100EAA4D0 /* MPSPreferencesViewController.h */,
+				58CDCBC4179E767100EAA4D0 /* MPSPreferencesViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58CDCB75179E75AA00EAA4D0 /* MultiPartnerSignupGIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58CDCB99179E75AA00EAA4D0 /* Build configuration list for PBXNativeTarget "MultiPartnerSignupGIT" */;
+			buildPhases = (
+				58CDCB72179E75AA00EAA4D0 /* Sources */,
+				58CDCB73179E75AA00EAA4D0 /* Frameworks */,
+				58CDCB74179E75AA00EAA4D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiPartnerSignupGIT;
+			productName = MultiPartnerSignupGIT;
+			productReference = 58CDCB76179E75AA00EAA4D0 /* MultiPartnerSignupGIT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58CDCB6E179E75AA00EAA4D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MPS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "James Crosthwaite";
+			};
+			buildConfigurationList = 58CDCB71179E75AA00EAA4D0 /* Build configuration list for PBXProject "MultiPartnerSignupGIT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58CDCB6D179E75AA00EAA4D0;
+			productRefGroup = 58CDCB77179E75AA00EAA4D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58CDCB75179E75AA00EAA4D0 /* MultiPartnerSignupGIT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58CDCB74179E75AA00EAA4D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58CDCB84179E75AA00EAA4D0 /* InfoPlist.strings in Resources */,
+				58CDCB8C179E75AA00EAA4D0 /* Default.png in Resources */,
+				58CDCB8E179E75AA00EAA4D0 /* Default@2x.png in Resources */,
+				58CDCB90179E75AA00EAA4D0 /* Default-568h@2x.png in Resources */,
+				58CDCB93179E75AA00EAA4D0 /* MainStoryboard.storyboard in Resources */,
+				58CDCBAD179E75C900EAA4D0 /* absa-selected.jpg in Resources */,
+				58CDCBAE179E75C900EAA4D0 /* absa.jpg in Resources */,
+				58CDCBAF179E75C900EAA4D0 /* avis-selected.jpg in Resources */,
+				58CDCBB0179E75C900EAA4D0 /* avis.jpg in Resources */,
+				58CDCBB1179E75C900EAA4D0 /* ba-selected.jpg in Resources */,
+				58CDCBB2179E75C900EAA4D0 /* ba.jpg in Resources */,
+				58CDCBB3179E75C900EAA4D0 /* big-orange-button.png in Resources */,
+				58CDCBB4179E75C900EAA4D0 /* bp-selected.jpg in Resources */,
+				58CDCBB5179E75C900EAA4D0 /* bp.jpg in Resources */,
+				58CDCBB6179E75C900EAA4D0 /* lewgeffen-selected.jpg in Resources */,
+				58CDCBB7179E75C900EAA4D0 /* lewgeffen.jpg in Resources */,
+				58CDCBB8179E75C900EAA4D0 /* my-account-background.jpg in Resources */,
+				58CDCBB9179E75C900EAA4D0 /* picknpay-selected.jpg in Resources */,
+				58CDCBBA179E75C900EAA4D0 /* picknpay.jpg in Resources */,
+				58CDCBBB179E75C900EAA4D0 /* preferences-background.jpg in Resources */,
+				58CDCBBC179E75C900EAA4D0 /* protea-selected.jpg in Resources */,
+				58CDCBBD179E75C900EAA4D0 /* protea.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58CDCB72179E75AA00EAA4D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58CDCB86179E75AA00EAA4D0 /* main.m in Sources */,
+				58CDCB8A179E75AA00EAA4D0 /* MPSAppDelegate.m in Sources */,
+				58CDCBC5179E767100EAA4D0 /* MPSPartnerSelectCMViewController.m in Sources */,
+				58CDCBC6179E767100EAA4D0 /* MPSPartnerSelectNJViewController.m in Sources */,
+				58CDCBC7179E767100EAA4D0 /* MPSPreferencesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58CDCB82179E75AA00EAA4D0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58CDCB83179E75AA00EAA4D0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		58CDCB91179E75AA00EAA4D0 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58CDCB92179E75AA00EAA4D0 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58CDCB97179E75AA00EAA4D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		58CDCB98179E75AA00EAA4D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58CDCB9A179E75AA00EAA4D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiPartnerSignupGIT/MultiPartnerSignupGIT-Prefix.pch";
+				INFOPLIST_FILE = "MultiPartnerSignupGIT/MultiPartnerSignupGIT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		58CDCB9B179E75AA00EAA4D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiPartnerSignupGIT/MultiPartnerSignupGIT-Prefix.pch";
+				INFOPLIST_FILE = "MultiPartnerSignupGIT/MultiPartnerSignupGIT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58CDCB71179E75AA00EAA4D0 /* Build configuration list for PBXProject "MultiPartnerSignupGIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58CDCB97179E75AA00EAA4D0 /* Debug */,
+				58CDCB98179E75AA00EAA4D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58CDCB99179E75AA00EAA4D0 /* Build configuration list for PBXNativeTarget "MultiPartnerSignupGIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58CDCB9A179E75AA00EAA4D0 /* Debug */,
+				58CDCB9B179E75AA00EAA4D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58CDCB6E179E75AA00EAA4D0 /* Project object */;
+}
